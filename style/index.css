@@ -51,7 +51,7 @@ table {
 
 * {
     box-sizing: border-box;
-    max-width: 90%;
+    width: auto;
 }
 
 html {
@@ -80,15 +80,29 @@ h1 {
     line-height: 0.5;
 }
 
+h3 {
+    font-family: "Corben";
+    font-weight: bold;
+    font-size: 1.8rem;
+    
+}
+
 
 /* Header */
 
+#home {
+    margin:0;
+    padding: 0;
+}
+
 .header-txt {
+    margin: 4%;
+    padding:2%;
+    margin-bottom: 1%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-bottom: 3%;
     color: #ACD7EC;
     font-weight: bold;
     font-size: 1.8rem;
@@ -100,18 +114,54 @@ nav {
     justify-content: center;
     align-items: center;
     background-color: #2E2532;
-   
-    
+    width: 100%;
+    margin: 0;
 }
+
 
 nav a {
     width: 20%;
     padding: 1%;
-    border: 1px dashed black;
-    border-style: none dashed;
+    border: 1px black;
+    border-style: dashed none;
     text-decoration: none;
     font-weight: bold;
     color: white;
     text-align: center;
     background-color: #2E2532;
+}
+
+/* About */
+
+.pink {
+    color:#D88373;
+    padding: 1%;
+}
+
+.about-txt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:2%;
+    padding: 2%;
+}
+
+.mushroom {
+    width: 40%;
+    height: 20%;
+    overflow: cutoff;
+    border-radius: 50%;
+}
+
+/* Projects */
+
+#projects {
+    display: flex;
 }
