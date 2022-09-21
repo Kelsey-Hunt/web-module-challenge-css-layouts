@@ -46,3 +46,72 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/* General */
+
+* {
+    box-sizing: border-box;
+    max-width: 90%;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Roboto Mono";
+    font-size: 1.6rem;
+    line-height: 1.5;
+    color: #84DCC6;
+    background-color: #0D5C63;
+}
+
+section {
+    padding: 2%;
+    margin: 2%;
+}
+
+h1 {
+    font-family: "Corben";
+    font-size: 6rem;
+    font-weight: bold;
+    text-align: center;
+    color:#D88373;
+    line-height: 0.5;
+}
+
+
+/* Header */
+
+.header-txt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 3%;
+    color: #ACD7EC;
+    font-weight: bold;
+    font-size: 1.8rem;
+
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2E2532;
+   
+    
+}
+
+nav a {
+    width: 20%;
+    padding: 1%;
+    border: 1px dashed black;
+    border-style: none dashed;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    background-color: #2E2532;
+}
