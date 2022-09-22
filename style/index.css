@@ -153,9 +153,8 @@ nav a:hover {
 }
 
 .about-txt {
-    margin-left: 4%;
-    padding-left: 2%;
-    padding-right: 0;
+    margin: 4%;
+    padding: 0;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -223,6 +222,8 @@ footer {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+    margin-bottom: 0;
+    padding-bottom: 4%;
 }
 
 .button, .other {
@@ -274,7 +275,7 @@ footer img {
    nav a{
     border: 1px dashed black;
     padding: 2%;
-    width: 40%;
+    width: 30%;
    }
 
    #about {
@@ -295,6 +296,27 @@ footer img {
    #projects {
     flex-direction: column;
     flex-wrap: wrap;
+    
+   }
+
+   #project img {
+    height: 75vh;
+    width: 60vh;
+   }
+
+   .project-pics {
+    width: 75%;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   }
+
+   .project-text {
+    width: 75%;
+    text-align: center;
    }
 
 
