@@ -301,14 +301,14 @@ footer img {
    }
 
    #projects img {
-    height: 75vh;
-    width: 60vh;
+    height: 60vh;
+    width: 25vh;
    }
 
    .project-pics {
     width: 75%;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
     margin-bottom: 2%;
     display: flex;
     flex-wrap: wrap;
@@ -329,7 +329,7 @@ footer img {
 
     #projects img {
         height: 55vh;
-        width: 30vh;
+        width: 20vh;
 
     }
 
